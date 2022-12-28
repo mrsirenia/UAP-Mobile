@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackground">#ECECEC</color>
+
+    <!--University-->
+    <color name="colorAbout">#F54B85</color>
+    <color name="colorHistory">#22A5DF</color>
+    <color name="colorVisiMisi">#DF9A22</color>
+    <color name="colorCharacter">#DE5CB2</color>
+    <color name="colorRecognition">#18D48D</color>
+    <color name="colorVideo">#BEA389</color>
+</resources>

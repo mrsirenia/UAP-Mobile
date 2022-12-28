@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datalibrary.mycampus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PP"
+            android:exported="false" />
+        <activity
+            android:name=".PPA"
+            android:exported="false" />
+        <activity
+            android:name=".TRKJJ"
+            android:exported="false" />
+        <activity
+            android:name=".TRKI"
+            android:exported="false" />
+        <activity
+            android:name=".Tepa"
+            android:exported="false" />
+        <activity
+            android:name=".MP"
+            android:exported="false" />
+        <activity
+            android:name=".TSL"
+            android:exported="false" />
+        <activity
+            android:name=".TPTH"
+            android:exported="false" />
+        <activity
+            android:name=".Tekben"
+            android:exported="false" />
+        <activity
+            android:name=".Horti"
+            android:exported="false" />
+        <activity
+            android:name=".PTP"
+            android:exported="false" />
+        <activity
+            android:name=".BudidayaTanamanPangan"
+            android:exported="false" />
+        <activity
+            android:name=".Kopi"
+            android:exported="false" />
+        <activity
+            android:name=".PMIP"
+            android:exported="false" />
+        <activity
+            android:name=".Kebun"
+            android:exported="false" />
+        <activity
+            android:name=".BudidayaTanamanPerkebunan"
+            android:exported="false" />
+        <activity
+            android:name=".Hotel"
+            android:exported="false" />
+        <activity
+            android:name=".PA"
+            android:exported="false" />
+        <activity
+            android:name=".AGBP"
+            android:exported="false" />
+        <activity
+            android:name=".PW"
+            android:exported="false" />
+        <activity
+            android:name=".AKP"
+            android:exported="false" />
+        <activity
+            android:name=".AKBD"
+            android:exported="false" />
+        <activity
+            android:name=".MI"
+            android:exported="false" />
+        <activity
+            android:name=".EkonomiBisnis"
+            android:exported="false" />
+        <activity
+            android:name=".BP"
+            android:exported="false" />
+        <activity
+            android:name=".Tangkap"
+            android:exported="false" />
+        <activity
+            android:name=".TPI"
+            android:exported="false" />
+        <activity
+            android:name=".Tekproter"
+            android:exported="false" />
+        <activity
+            android:name=".Proter"
+            android:exported="false" />
+        <activity
+            android:name=".Peternakan"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiPertanian"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about.ActivityHistory"
+            android:label="@string/history" />
+        <activity
+            android:name=".about.ActivityVisimisi"
+            android:label="@string/visi" />
+        <activity
+            android:name=".ShowunderActivity"
+            android:label="@string/s1" />
+        <activity
+            android:name=".AboutappActivity"
+            android:label="@string/action_settings"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
